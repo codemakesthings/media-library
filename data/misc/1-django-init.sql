@@ -1,0 +1,2 @@
+-- PostgreSQL initialization script for Django
+-- This file runs automatically when the container starts

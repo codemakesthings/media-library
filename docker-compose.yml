@@ -29,7 +29,7 @@ services:
       - "5432:5432"
     volumes:
       - ./data:/data
-      - ./data/misc/django_init.sql:/docker-entrypoint-initdb.d/1-django-init.sql
+      - ./data/misc/1-django-init.sql:/docker-entrypoint-initdb.d/1-django-init.sql
   pgadmin:
     container_name: portfolioadmin_container
     image: dpage/pgadmin4:5.2
